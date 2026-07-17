@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import warnings
 
-# --- 1. NUC SINIFIMIZ (Daha önce yazdığımız algoritma) ---
+# --- 1. NUC SINIFIMIZ  ---
 class TwoPointNUC:
     def __init__(self, width=640, height=480):
         self.gain_map = np.ones((height, width), dtype=np.float32)
